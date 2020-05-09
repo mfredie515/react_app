@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import TodoList from './components/TodoList';
+
+var element = React.createElement('h1', {className: 'greeting' }, 'Hello, world!');
+var todoList = <TodoList />;
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  todoList,
   document.getElementById('root')
 );
 

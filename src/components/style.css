@@ -1,0 +1,75 @@
+.popup_form {
+    position: fixed;
+    /* width: 250px; */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /* background-color: gray; */
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.popup_section {
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    top: 33%;
+    bottom: 33%;
+    width: 250px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: white;
+    /* float: left;
+    margin: 20px; */
+}
+
+.popup_div {
+    margin: 10px;
+}
+
+.popup_div label {
+    display: block;
+    text-align: left;
+}
+
+.popup_div input[type="text"] {
+    width: 200px;    
+}
+
+.popup_div textarea {    
+    width: 200px;
+    height: 6em;
+}
+
+.popup_div button {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.task_div {
+    width: 80%;
+    text-align: center;
+    border-style: double;
+    margin: 10px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.task_div input[type="text"] {
+    margin-right: 20px;
+    width: 200px;
+}
+
+.task_div textarea {
+    width: 450px;
+}
+
+.task_div button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
